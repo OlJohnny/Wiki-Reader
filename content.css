@@ -8,14 +8,13 @@ html {
 
 body {
     margin: auto;
-    background-color: #222 !important;
-    color: #d9d9d9 !important;
 }
 
 /* nicer background and font color for all elements */
 * {
     background-color: #222 !important;
     color: #d9d9d9 !important;
+    border-color: #454545 !important;
 }
 
 pre, code {
@@ -28,11 +27,7 @@ img {
     background-color: #444 !important;
 }
 
-/* nicer border color*/
-.mw-body, div.thumbinner, .thumbimage, .toc {
-    border-color: #444 !important;
-}
-
+/* nicer link, visited link colors*/
 a {
     color: #00a2e7 !important;
 }
@@ -65,6 +60,3 @@ a:visited {
         width: 1510px;
     }
 }
-
-
-
