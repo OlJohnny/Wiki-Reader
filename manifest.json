@@ -1,0 +1,21 @@
+{
+	"name": "Wiki Reader",
+	"description" : "Adjust Formatting of Wiki Pages for better readability",
+	"version": "0.1",
+	"manifest_version": 2,
+	"browser_action" : {
+		"default_icon": {
+			"128": "logo_128.png"
+		}
+	},
+	"icons": {
+		"128": "logo_128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.wikipedia.org/*"],
+			"run-at": "document_start",
+			"css": ["content.css"]
+		}
+	]
+}

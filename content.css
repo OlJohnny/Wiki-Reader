@@ -1,0 +1,70 @@
+/* center the webpage */
+html {
+    -webkit-font-smoothing: antialiased;
+    display: table;
+    position: relative;
+    margin: auto !important;
+}
+
+body {
+    margin: auto;
+    background-color: #222 !important;
+    color: #d9d9d9 !important;
+}
+
+/* nicer background and font color for all elements */
+* {
+    background-color: #222 !important;
+    color: #d9d9d9 !important;
+}
+
+pre, code {
+    background-color: #333 !important;
+    color: #d9d9d9 !important;
+    border-color: #555 !important;
+}
+
+img {
+    background-color: #444 !important;
+}
+
+/* nicer border color*/
+.mw-body, div.thumbinner, .thumbimage, .toc {
+    border-color: #444 !important;
+}
+
+a {
+    color: #00a2e7 !important;
+}
+
+a:visited {
+    color: #ca1a70 !important;
+}
+
+/* do not stretch the webpage over the whole fucking screen */
+@media (min-width: 768px) {
+    html {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        width: 1160px;
+    }
+}
+
+@media (min-width: 1550px) {
+    html {
+        width: 1510px;
+    }
+}
+
+
+
