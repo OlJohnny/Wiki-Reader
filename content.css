@@ -36,6 +36,12 @@ a:visited {
     color: #ca1a70 !important;
 }
 
+/* make dots before unnumbered lists more visible */
+ul {
+    /*list-style: disc !important;*/
+    list-style-image: none !important;
+}
+
 /* do not stretch the webpage over the whole fucking screen */
 @media (min-width: 768px) {
     html {
