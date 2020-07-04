@@ -1,8 +1,8 @@
 # Wiki-Reader
-This Chrome Extension injects custom css code into wikipedia.org webpages to:
+This Chrome Extension modifies wikipedia webpages to:
 * limit the horizontal space
 * turn the page to dark mode
 
-for better readability.
+for better readability, especially on large screens.
 
-Enjoy!
+No tracking, no ads, no bullshit.
