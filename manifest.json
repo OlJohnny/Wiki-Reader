@@ -2,7 +2,7 @@
 	"name": "Wiki Reader",
 	"description" : "Adjust Formatting of Wiki Pages for better readability",
 	"author": "Johnbuble",
-	"version": "0.2",
+	"version": "0.3",
 	"manifest_version": 2,
 	"browser_action" : {
 		"default_title": "Wiki Reader",
