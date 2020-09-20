@@ -23,11 +23,18 @@ pre, code {
     border-color: #555 !important;
 }
 
+/* lighter gray-ish background for transparent images */
 img {
     background-color: #444 !important;
 }
 
-/* nicer link, visited link colors*/
+/* invert math images by 85% to achieve a similar font brightness */
+.mwe-math-fallback-image-inline {
+    filter: invert(0.85);
+    background-color: transparent !important;
+}
+
+/* nicer (visited) link colors */
 a {
     color: #00a2e7 !important;
 }
